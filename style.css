@@ -1,0 +1,190 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+
+
+img {
+	border: 1px solid #ddd;
+	border-radius: 0px;
+	padding: 5px;
+	width: 80px;
+	
+  }
+
+  
+nav ul {
+	display: flex;
+}
+
+nav ul li {
+	list-style: none;
+	margin-left: 7rem;
+	font-size: 2rem;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 70vh;
+}
+
+.hero h1 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+.hero p {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.cta {
+	background-color: #fff;
+	color: #333;
+	padding: 1rem 2rem;
+	border-radius: 2rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.cta:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+section {
+	margin: 5rem 0;
+}
+
+section h2 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+.services-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 2rem;
+}
+
+.service {
+	background-color: #eee;
+	padding: 2rem;
+	border-radius: 1rem;
+}
+
+.service h3 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.service h4 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.service h5 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 2rem;
+}
+
+footer p {
+	margin-bottom: 1rem;
+}
+
+footer ul {
+	display: flex;
+}
+
+footer ul li {
+	list-style: none;
+	margin-left: 1rem;
+}
+
+footer ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+	margin-top: 2rem;
+}
+
+form label {
+	font-weight: bold;
+}
+
+form input,
+form textarea {
+	width: 100%;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	border: none;
+	margin-bottom: 1rem;
+}
+
+form textarea {
+	resize: none;
+}
+
+form .submit-btn {
+	background-color: #333;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	border: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+form .submit-btn:hover {
+	background-color: #fff;
+	color: #333;
+}
